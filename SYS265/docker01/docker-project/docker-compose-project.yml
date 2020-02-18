@@ -2,6 +2,7 @@ version: '3.1'
 
 services:
   joomla:
+    image: joomla
     restart: always
     links:
       - joomladb:mysql
