@@ -1,0 +1,6 @@
+docker pull itzg/minecraft server
+#This installs the docker image
+vi docker-compose-project.yml
+#creates the yml file and allows me fill it out.
+docker-compose -f docker-compose-project.yml up -d
+#runs the yml file and brings up the minecraft server
