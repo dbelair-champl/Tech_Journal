@@ -1,0 +1,11 @@
+ansible1-daniel
+[webmin]
+ansible2-daniel
+[windows]
+mgmt01-daniel
+[windows:vars]
+ansible_user=daniel.belair-adm@daniel.local
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_transport=ntlm
+ansible_winrm_port=5986
