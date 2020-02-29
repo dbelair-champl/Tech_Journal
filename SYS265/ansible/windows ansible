@@ -1,0 +1,3 @@
+wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1 -outfile ansible.ps1
+Unblock-File .\ansible.ps1
+.\ansible.ps1 -Verbose

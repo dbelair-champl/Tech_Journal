@@ -1,0 +1,5 @@
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install sshpass ansible -y
+sudo apt-get install python-pip python-setuptools -y
+sudo pip install wheel pywinrm pywinrm[kerberos]
